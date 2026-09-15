@@ -1,0 +1,30 @@
+version: "3.8"
+
+services:
+  tos7-app-10-sonarr:
+    image: linuxserver/sonarr:4.0.11
+    container_name: tos7-app-10-sonarr
+    restart: unless-stopped
+    ports:
+      - "18090:8989"
+    privileged: true
+    user: "1000:1000"
+    volumes:
+      - tos7-app-10-sonarr-config:/config
+      - tos7-app-10-sonarr-data:/data
+    environment:
+      - TZ=Asia/Shanghai
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8989/ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  tos7-app-10-sonarr-config:
+  tos7-app-10-sonarr-data:
+
+x-app-meta:
+  web:
+    port: 18090
+    protocol: http

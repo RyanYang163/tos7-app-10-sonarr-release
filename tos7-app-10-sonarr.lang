@@ -1,0 +1,97 @@
+[en-us]
+name = "Sonarr"
+auth = "TOS Review Test Corpus"
+descript = "A TV series collection manager for Usenet and BitTorrent users."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[zh-cn]
+name = "Sonarr"
+auth = "TOS Review Test Corpus"
+descript = "面向 Usenet 和 BitTorrent 用户的剧集收藏管理器,可自动下载并保持剧集更新。"
+release_note = "1. 首次发布。"
+important = "需要先安装并启用 DockerEngine。"
+
+[zh-hk]
+name = "Sonarr"
+auth = "TOS Review Test Corpus"
+descript = "面向 Usenet 和 BitTorrent 用戶的劇集收藏管理器,可自動下載並保持劇集更新。"
+release_note = "1. 首次发布。"
+important = "需要先安装并启用 DockerEngine。"
+
+[fr-fr]
+name = "Sonarr"
+auth = "TOS Review Test Corpus"
+descript = "A TV series collection manager for Usenet and BitTorrent users."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[de-de]
+name = "Sonarr"
+auth = "TOS Review Test Corpus"
+descript = "A TV series collection manager for Usenet and BitTorrent users."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[it-it]
+name = "Sonarr"
+auth = "TOS Review Test Corpus"
+descript = "A TV series collection manager for Usenet and BitTorrent users."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[es-es]
+name = "Sonarr"
+auth = "TOS Review Test Corpus"
+descript = "A TV series collection manager for Usenet and BitTorrent users."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[hu-hu]
+name = "Sonarr"
+auth = "TOS Review Test Corpus"
+descript = "A TV series collection manager for Usenet and BitTorrent users."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[ja-jp]
+name = "Sonarr"
+auth = "TOS Review Test Corpus"
+descript = "A TV series collection manager for Usenet and BitTorrent users."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[ko-kr]
+name = "Sonarr"
+auth = "TOS Review Test Corpus"
+descript = "A TV series collection manager for Usenet and BitTorrent users."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[pl-pl]
+name = "Sonarr"
+auth = "TOS Review Test Corpus"
+descript = "A TV series collection manager for Usenet and BitTorrent users."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[ru-ru]
+name = "Sonarr"
+auth = "TOS Review Test Corpus"
+descript = "A TV series collection manager for Usenet and BitTorrent users."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[tr-tr]
+name = "Sonarr"
+auth = "TOS Review Test Corpus"
+descript = "A TV series collection manager for Usenet and BitTorrent users."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
+
+[pt-pt]
+name = "Sonarr"
+auth = "TOS Review Test Corpus"
+descript = "A TV series collection manager for Usenet and BitTorrent users."
+release_note = "1. Initial release."
+important = "Requires DockerEngine from the TOS App Center."
